@@ -70,7 +70,7 @@ CREATE TABLE `tms_pwd_resets` (
 --
 
 INSERT INTO `tms_pwd_resets` (`r_id`, `r_email`) VALUES
-(2, 'sysadmin@tms.com');
+(2, 'thestargulex@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -122,9 +122,9 @@ CREATE TABLE `tms_shipment` (
 --
 
 INSERT INTO `tms_shipment` (`shipment_id`, `shipment_name`, `shipment_description`, `shipment_weight`, `shipment_origin`, `shipment_destination`, `status`, `tracking_number`, `created_at`) VALUES
-(1, 'Electronics Shipment', 'Shipment of electronic devices including phones and laptops', 10.50, 'New Delhi ', 'Los Angeles', 'In Transit', NULL, '2025-01-05 06:24:40'),
-(2, 'Furniture Shipment', 'Contains various furniture items for a new office setup', 50.20, 'Chicago', 'Houston', 'Pending', NULL, '2025-01-05 06:24:40'),
-(3, 'Clothing Shipment', 'Shipment of seasonal clothing including jackets and sweaters', 25.40, 'San Francisco', 'Miami', 'Delivered', NULL, '2025-01-05 06:24:40'),
+(1, 'Electronics Shipment', 'Shipment of electronic devices including phones and laptops', 10.50, 'Haramaya ', 'Finfinne', 'In Transit', NULL, '2025-01-05 06:24:40'),
+(2, 'Furniture Shipment', 'Contains various furniture items for a new office setup', 50.20, 'Harar', 'Jijiga', 'Pending', NULL, '2025-01-05 06:24:40'),
+(3, 'Clothing Shipment', 'Shipment of seasonal clothing including jackets and sweaters', 25.40, 'Dire Dhawa', 'Ciroo', 'Delivered', NULL, '2025-01-05 06:24:40'),
 (6, 'Urjiiaaa', 'aas', 1212.00, '13121', 'fiaaaa', 'In Transit', NULL, '2025-01-05 06:47:34');
 
 -- --------------------------------------------------------
